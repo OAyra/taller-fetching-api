@@ -19,6 +19,29 @@
   color: white;
 }
 
+input {
+  width: 200px;
+  height: 50px;
+  border-width: 1px;
+  border-radius: 4px;
+}
+
+.table-wraper {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.table-wraper table th {
+  width: 100px;
+}
+
+.table-wraper table td {
+  width: 100px;
+}
+
 .App-link {
   color: #61dafb;
 }
@@ -27,6 +50,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
